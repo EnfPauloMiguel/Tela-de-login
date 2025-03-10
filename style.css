@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+
+    --escrita1: "Open Sans", sans-serif;
+    --escrita2: "Roboto", sans-serif;
+    --cor1_pret0: #000000;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.image{
+    padding-left: 4rem;
+    margin: 100px;
+}
+
+.login{
+   
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    padding: 15px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.login-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+form label{
+    font-family: var(--escrita1);
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--cor1_pret0);
+}
+
+form input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: var(--escrita1);
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--cor1_pret0);
+}
